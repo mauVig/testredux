@@ -7,7 +7,7 @@ function Edit() {
   const store = useSelector((st) => st.notes);
   const [text, setText] = useState({});
   useEffect(() => {
-    setText(store.c((st) => st.id === parseInt(param.id)));
+    setText(store.find((st) => st.id === parseInt(param.id)));
   }, []);
 
   return (
