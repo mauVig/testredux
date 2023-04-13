@@ -1,5 +1,5 @@
 # testredux
-Trining redux
+Tryning redux
 
  ### Hola estoy practicando redux ###
  
